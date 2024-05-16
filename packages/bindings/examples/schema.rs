@@ -3,7 +3,7 @@ use std::fs::create_dir_all;
 
 use cosmwasm_schema::{export_schema, remove_schemas, schema_for};
 
-use classic_bindings::{
+use classic_bindings_genuine::{
     ExchangeRateItem, ExchangeRatesResponse, SwapResponse, TaxCapResponse,
     TaxRateResponse, TerraQuery, TerraMsg
 };

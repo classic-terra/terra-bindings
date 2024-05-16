@@ -1,6 +1,6 @@
 [package]
-name = "classic-bindings"
-version = "0.2.1"
+name = "classic-bindings-genuine"
+version = "0.3.0"
 authors = ["nghuyenthevinh2000 <nghuyenthevinh@gmail.com>"]
 edition = "2021"
 description = "Bindings for CustomMsg and CustomQuery for the Terra Classic blockchain"
@@ -24,4 +24,4 @@ cosmwasm-std = { version = "1.5", features = ["stargate"] }
 schemars = "0.8"
 serde = { version = "1.0", default-features = false, features = ["derive"] }
 prost = "0.11"
-classic-rust = "0.2.0"
+classic-rust-genuine = "0.3.0"

@@ -1,7 +1,7 @@
 use std::str::FromStr;
 use std::convert::TryFrom;
 
-use classic_rust::types::terra::{market::v1beta1::QuerySwapRequest, treasury::v1beta1::{QueryTaxCapRequest, QueryTaxRateRequest}, oracle::v1beta1::QueryExchangeRateRequest};
+use classic_rust_genuine::types::terra::{market::v1beta1::QuerySwapRequest, treasury::v1beta1::{QueryTaxCapRequest, QueryTaxRateRequest}, oracle::v1beta1::QueryExchangeRateRequest};
 use cosmwasm_std::{Coin, QuerierWrapper, QueryRequest, StdResult, ContractInfoResponse, Uint128, Decimal};
 
 use crate::{query::{
